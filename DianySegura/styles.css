@@ -1,0 +1,13 @@
+body{
+    background-image:url("https://wallpapers.com/images/hd/new-york-city-4k-ultra-hd-odfeg8q584czq0dt.jpg");
+    background-size: 100%;
+}
+
+h1{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+    color: aliceblue;
+}
