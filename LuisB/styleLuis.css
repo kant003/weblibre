@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Oceano_Atl%C3%A1ntico_La_Coru%C3%B1a_Torre_H%C3%A9rcules1.JPG/1280px-Oceano_Atl%C3%A1ntico_La_Coru%C3%B1a_Torre_H%C3%A9rcules1.JPG');
+}
+
+section{
+    display: flex;
+    position: relative;
+}
+
+h1{
+    background-color: aliceblue;
+    border-radius: 20%;
+    padding: 1%;
+    text-align: center;
+}
