@@ -1,14 +1,27 @@
 body {
-    background: linear-gradient(to right, skyblue , violet);
+    background: linear-gradient(to right, skyblue, violet);
     display: flex;
     flex-direction: column;
 }
 
-h1 {
+h1.titulo {
     text-align: center;
     color: white;
     justify-content: center;
     font-size: 40px;
+
+    animation: fluido 30s ease-in-out infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes fluido {
+    0% { background-position: 0 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0 50% }
 }
 
 .informacion-inicio {
@@ -19,19 +32,42 @@ h1 {
     display: flex;
     gap: 15px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .informacion-inicio li {
     display: inline;
 }
 
-a{
+a {
     /* text-decoration: none; */
     color: black;
 }
 
-img{
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imagen-item h1 {
+    font-size: 25px;
+    text-shadow: 1px 1px 5px;
+}
+
+.imagen-item {
+    text-align: center;
+}
+
+.imagen-item img {
+    width: 300px;
+    /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: auto;
 }
