@@ -1,0 +1,14 @@
+body {
+    height: 100%;
+}
+.container {
+    display: flex;
+
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.mono, .gato, .cristiano {
+    margin: auto;
+}
