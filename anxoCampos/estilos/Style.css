@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(to right, skyblue , violet);
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.informacion-inicio {
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.informacion-inicio li {
+    display: inline;
+}
+
+a{
+    /* text-decoration: none; */
+    color: black;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
